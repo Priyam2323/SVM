@@ -19,7 +19,7 @@ All the possible kernel along with other parameters have been tested and execute
     svc__kernel:Type of the SVM kernel ( 'linear', 'rbf', 'poly').  
     Svc__gamma: Kernel coefficient for 'rbf', 'poly', and 'sigmoid' kernels. Determines the influence of individual training samples on the decision boundary.  
     svc__degree: Degree of the polynomial kernel; it is only relevant when using the 'poly' kernel.  
-  Metrics:  
+  **Metrics:**
     Accuracy: Fraction of correctly predicted samples.  
     Precision: Measures the accuracy of positive predictions.  
     Recall: Measures the ability to find all relevant instances in the dataset.  
