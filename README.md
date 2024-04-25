@@ -40,11 +40,11 @@ Only 3 results have been interpreted here on the basis of kernel, gamma and C va
   The linear kernel with a low regularization parameter (C=0.1) performs exceptionally well, achieving high scores across all metrics. An accuracy and F1 score of 0.96 suggest that the model is very effective at classifying the data correctly. 
   
   
-  Evaluating SVM with kernel=rbf, C=0.1, gamma=scale
-  Accuracy: 0.87
-  Precision: 0.88
-  Recall: 0.87
-  F1 Score: 0.86
+  Evaluating SVM with kernel=rbf, C=0.1, gamma=scale  
+  Accuracy: 0.87  
+  Precision: 0.88  
+  Recall: 0.87  
+  F1 Score: 0.86  
   When using the RBF kernel, the performance drops compared to the linear kernel. The accuracy and F1 score around 0.87 indicate that while the model still performs decently, it might be struggling with the complexity added by the RBF kernel under low regularization strength. This could be due to the RBF kernel's increased sensitivity to hyperparameter settings, especially gamma. The gamma='scale' setting might not be optimal for this particular data distribution when using a low C value.
   
   
