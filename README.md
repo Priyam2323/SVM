@@ -1,16 +1,16 @@
 # SVM
 All the possible kernel along with other parameters have been tested and executed in this repository.
-
-Dataset - iris data has been used in here which can be accessed from - https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
-Data Exploration and Preparation:
-  I have used Python libraries like pandas and scikit-learn, for data manipulation and preprocessing. 
-  Loading the Dataset: load_iris() from scikit-learn has been used and converted into a pandas DataFrame for easier manipulation.
-  Initial Exploration: info() and head() methods provide a quick overview of data types and the first few rows of the dataset.
-  Handling Missing Values: It was found that Iris dataset typically has no missing values.
-  Scaling Features: StandardScaler has been used to normalize the feature columns so that they have a mean of 0 and a standard deviation of 1.
-  Encoding Categorical Variables: The LabelEncoder has been used to transform categorical labels (species names) into integers.
+<br><br>
+Dataset - iris data has been used in here which can be accessed from - https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html  
+Data Exploration and Preparation:  
+  I have used Python libraries like pandas and scikit-learn, for data manipulation and preprocessing.   
+  Loading the Dataset: load_iris() from scikit-learn has been used and converted into a pandas DataFrame for easier manipulation.  
+  Initial Exploration: info() and head() methods provide a quick overview of data types and the first few rows of the dataset.  
+  Handling Missing Values: It was found that Iris dataset typically has no missing values.  
+  Scaling Features: StandardScaler has been used to normalize the feature columns so that they have a mean of 0 and a standard deviation of 1.  
+  Encoding Categorical Variables: The LabelEncoder has been used to transform categorical labels (species names) into integers.  
   
-SVM Implementation - SVM.ipynb has the implemention where -  
+SVM Implementation - SVM.ipynb has the implemention where -    
   The function evaluate_svm_config is particularly structured to assess the performance of the SVM under varying parameters and kernel types.  
   Parameters:  
     X: The feature matrix.  
